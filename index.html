@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ============ LINKS ============== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LANDING PAGE</title>
+    <title>MDIGI TECH</title>
     <script src="https://kit.fontawesome.com/7025abfa33.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -18,9 +22,14 @@
                 <img src="./img/LOGO.png" alt="The logo of Mdigitech">
             </div>
             <ul class="navbar">
-                <li><a href="blog.html" class="blog">Blog</a></li>
-                <li><a href="#" class="language">ENG <ion-icon name="chevron-down-outline"></ion-icon></a></li>
-                <button class="btn">Join Waitlist</button>
+                <li><a href="https://link.medium.com/xKoqPjtFRAb" target="_blank" class="blog">Blog</a></li>
+                <select id="language-select" class="language">
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <option value="fr">Spanish</option>
+                    <option value="fr">Chinese</option>
+                </select>
+                <a href="#" class="btn">Join Waitlist</a>
             </ul>   
             <div class="hamburger">
                 <span class="bar"></span>
@@ -29,9 +38,8 @@
             </div>
         </nav>
         <div class="content">
-            <!--<img src="./img/TAG.png" alt="">-->
             <h1 class="hero-tag">
-                Unlock Your Full <span style="color: #112f7c;">Mathematical Potential</span> With Us
+                Unlock Your Full <span>Mathematical Potential</span> With Us
             </h1>
             <p>
                 Math wizard is a powerful math calculator with advanced 
@@ -40,8 +48,10 @@
                 making it an essential tool for students,professionals and main enthusiasts.
             </p>
             <div>
+                <div class="hero-tag-btn">
                 <input type="email" name="" class="email" placeholder="Email Address">
-                <button class="btn">Join Waitlist</button>
+                <a href="#" class="btn btn-1">Join Waitlist <img src="/img/arrow-narrow-right.svg" class="arrow" alt=""></a>
+                </div>
             </div>
         </div>
     </section> 
@@ -50,7 +60,7 @@
         <section class="section-2">
             <div class="section-2-header">
                 <h1 class="hero-tag-2">
-                   <span style="color: #154BD6;">Discover</span> what we have in store for <span style="color: #154BD6;">you</span>
+                   <span>Discover</span> what we have in store for <span>you</span>
                 </h1>
             </div>
             <div class="section-2-boxes">
@@ -104,10 +114,11 @@
                 </div>
             </div>
         </section>
+        </main>
         <section class="section-3">
             <div class="section-3-header">
                 <h2 class="hero-tag-3">
-                    Benefit of Using <span style="color: #2A66FF;">Math</span> Wizard
+                    Benefit of Using <span>Math</span> Wizard
                 </h2>
             </div>
             <div class="section-3-boxes">
@@ -145,34 +156,39 @@
         </section>
         
         <section class="section-4">
+            <div class="section-4-container">
                 <h2>
                     Unleash your mathematical potential and unlock a world of possibilities
                 </h2>
-            <div class="cls">
-                <input type="email" name="" class="email" placeholder="Email Address">
-                <button class="btn">Join Waitlist</button>
-            </div>
+                <div class="cls">
+                    <input type="email" name="" class="email" placeholder="Email Address">
+                    <a href="" class="btn btn-2">Join Waitlist <img src="/img/arrow-narrow-right.svg" class="arrow" alt=""></a>
+                </div>
             </div>
         </section>
 
 
         <section class="section-5">
-            <h1>Join our Community</h1>
-            <p id="sec-5">Join the hype on our communities. Share with friends and connect with others.</p>
+            <h1>
+                Join our Community
+            </h1>
+            <p id="sec-5">
+                Join the hype on our communities. Share with friends and connect with others.
+            </p>
             <div class="section-5-container">
                 <div class="section-5-box">
                     <div class="box-cont cont1">
-                        <img src="./img/Capa 2.png" class="capa" alt="">
+                        <img src="./img/Capa 2.png">
                     </div>
                     <h2>
                         Facebook
                     </h2>
                     <p>
-                        Math Wizard users can visualize mathematical functions, equations, and inequalities
-                        through powerful graphing functionalities. It allows for in-depth analysis of
-                        function behavior.
+                        Follow us for the Latest New and Update
                     </p>
-                    <button class="btn-1">Visit now</button>
+                    <a href="" target="_blank" class="socials-btn">
+                        Visit now
+                    </a>
                 </div>
                 <div class="section-5-box">
                     <div class="box-cont cont2">
@@ -182,11 +198,9 @@
                         LinkedIn
                     </h2>
                     <p>
-                        Math Wizard users can visualize mathematical functions, equations, and inequalities
-                        through powerful graphing functionalities. It allows for in-depth analysis of
-                        function behavior.
+                        Follow us for the Latest New and Update
                     </p>
-                    <button class="btn-1">Visit now</button>
+                    <a href="https://www.linkedin.com/in/maths-wizard-57657528" target="_blank" class="socials-btn">Visit now</a>
                 </div>
                 <div class="section-5-box">
                     <div class="box-cont cont3">
@@ -196,11 +210,9 @@
                         Twitter
                     </h2>
                     <p>
-                        Math Wizard users can visualize mathematical functions, equations, and inequalities
-                        through powerful graphing functionalities. It allows for in-depth analysis of
-                        function behavior.
+                        Follow us for the Latest New and Update
                     </p>
-                    <button class="btn-1">Visit now</button>
+                    <a href="https://twitter.com/Maths_Wizard10?t=FykN2x3d5R910cFauJjeJg&s=08" target="_blank" class="socials-btn">Visit now</a>
                 </div>
                 <div class="section-5-box">
                     <div class="box-cont cont4">
@@ -210,54 +222,78 @@
                         Instagram
                     </h2>
                     <p>
-                        Math Wizard users can visualize mathematical functions, equations, and inequalities
-                        through powerful graphing functionalities. It allows for in-depth analysis of
-                        function behavior.
+                        Follow us for the Latest New and Update
                     </p>
-                    <button class="btn-1">Visit now</button>
+                    <a href="" target="_blank" class="socials-btn">Visit now</a>
                 </div>
             </div>
         </section>
-        <section class="section-6">
-            <h1>Got Question</h1>
-            <p>
-                See some frequently asked questions
-            </p>
-            <div class="sec-6-cont">
-                <div class="faq-item">
-                    <p>
-                        Can math wizard handle complex mathematical equations?
-                    </p>
-                    <ion-icon class="ion-icon" name="chevron-down-outline"></ion-icon>
-                </div>
-                <div class="faq-item">
-                    <p>
-                        Can math wizard handle complex mathematical equations?
-                    </p>
-                    <ion-icon class="ion-icon" name="chevron-down-outline"></ion-icon>
-                </div>
-                <div class="faq-item">
-                    <p>
-                        Can math wizard handle complex mathematical equations?
-                    </p>
-                    <ion-icon class="ion-icon" name="chevron-down-outline"></ion-icon>
-                </div>
-                <div class="faq-item">
-                    <p>
-                        Can math wizard handle complex mathematical equations?
-                    </p>
-                    <ion-icon class="ion-icon" name="chevron-down-outline"></ion-icon>
-                </div>
-                <div class="faq-item">
-                    <p>
-                        Can math wizard handle complex mathematical equations?
-                    </p>
-                    <ion-icon class="ion-icon" name="chevron-down-outline"></ion-icon>
-                </div>
+    <section class ="section-6">
+        <h2 class="title">
+            Got Questions
+        </h2>
+        <p>See some frequently asked questions here!</p>
+        <div class="faq active">
+            <div class="question">
+                <h2>Can math wizard handle complex mathematical equations?</h2>
+                <ion-icon class="icon" name="chevron-down-outline"></ion-icon>
             </div>
-        </section>
-    </main>
-
+            <div class="answer">
+                <p>
+                    Yes, the Math Wizard was birthed with the key aim of helping users
+                    solve complex mathematical problems with ease.
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h2>Does Math Wizard support graphing functions?</h2>
+                <ion-icon class="icon" name="chevron-down-outline"></ion-icon>
+            </div>
+            <div class="answer">
+                <p>
+                    Yes, the Math Wizard was birthed with the key aim of helping users
+                    solve complex mathematical problems with ease.
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h2>Can I use math wizard for statistical analysis?</h2>
+                <ion-icon class="icon" name="chevron-down-outline"></ion-icon>
+            </div>
+            <div class="answer">
+                <p>
+                    Yes, the Math Wizard was birthed with the key aim of helping users
+                    solve complex mathematical problems with ease.
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h2>Is Math Wizard suitable for both students and professionals?</h2>
+                <ion-icon class="icon" name="chevron-down-outline"></ion-icon>
+            </div>
+            <div class="answer">
+                <p>
+                    Yes, the Math Wizard was birthed with the key aim of helping users
+                    solve complex mathematical problems with ease.
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h2>Can I use Math Wizard on different platforms?</h2>
+                <ion-icon class="icon" name="chevron-down-outline"></ion-icon>
+            </div>
+            <div class="answer">
+                <p>
+                    Yes, the Math Wizard was birthed with the key aim of helping users
+                    solve complex mathematical problems with ease.
+                </p>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="footer-sec">
             <img src="./img/LOGO.png" class="sec">
@@ -267,19 +303,23 @@
         </div>
         <div class="socials">
             <div class="socials-cont">
-                <img src="./img/Vector.png" alt="">
+                <a href="">
+                    <img src="/img/Facebook.svg" alt="">
+                </a>
             </div>
             <div class="socials-cont">
-                <img src="./img/ig.png" alt="">
+                <a href="https://twitter.com/Maths_Wizard10?t=FykN2x3d5R910cFauJjeJg&s=08">
+                    <img src="/img/Twitter.svg" alt="">
+                </a>
             </div>
             <div class="socials-cont">
-                <img src="./img/twitter.png" alt="">
-            </div>
-            <div class="socials-cont">
-                <img src="./img/linkedin.png" alt="">
+                <a href="https://www.linkedin.com/in/maths-wizard-57657528">
+                    <img src="/img/Linkedin.svg" alt="">
+                </a>
             </div>
         </div>
     </footer>
+    <script src="./app.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
