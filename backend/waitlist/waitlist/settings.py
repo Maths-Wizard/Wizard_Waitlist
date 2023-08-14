@@ -124,7 +124,7 @@ JWT_AUTH = {
 
 
 # Treblle Configuration Code
-TREBLLE_HIDDEN_KEYS = ["id", "email", "password"]
+TREBLLE_HIDDEN_KEYS = ["suscriber_id", "email"]
 
 
 TREBLLE_INFO = {
